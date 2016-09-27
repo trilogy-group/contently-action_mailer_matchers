@@ -21,9 +21,13 @@ Or install it yourself as:
 
     $ gem install action_mailer_matchers
 
-Include ActionMailerMatchers in your RSpec config
+Include ActionMailerMatchers in your RSpec config by requiring it and including in your configuration block.
 
 ```ruby
+require "action_mailer_matchers"
+
+...
+
 RSpec.configure do |config|
   config.include ActionMailerMatchers
 end
