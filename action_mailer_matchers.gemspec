@@ -6,7 +6,7 @@ require 'action_mailer_matchers/version'
 Gem::Specification.new do |spec|
   spec.name          = "action_mailer_matchers"
   spec.version       = ActionMailerMatchers::VERSION
-  spec.authors       = ["Alexandra Ackerman, Kevin Curtin"]
+  spec.authors       = ["Alexandra Ackerman, Kevin Curtin, Andy Klimczak"]
   spec.email         = ["aaackerman.dev@gmail.com"]
   spec.summary       = %q{ActionMailerMatchers provides rspec matchers to test Rails' common ActionMailer functionality.}
   spec.description   = %q{ActionMailerMatchers provides rspec matchers to test Rails' common ActionMailer functionality.}
