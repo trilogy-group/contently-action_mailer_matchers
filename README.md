@@ -57,6 +57,13 @@ You can also test that someone has not received an email.
 expect(some_user).not_to have_received_email
 ```
 
+Emails sent to users using `bcc` or `cc` can be tested using:
+
+```ruby
+expect("cc@email.com").to have_received_cc_email(body: "Wonderful email body")
+expect("bcc@email.com").to have_received_bcc_email(body: "Wonderful email body")
+```
+
 ## Contributing
 
 1. Fork it ( https://github.com/contently/action_mailer_matchers/fork )
